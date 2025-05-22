@@ -16,7 +16,7 @@ cache_countries = TTLCache(maxsize=100, ttl=3600)  # 1 hour cache
 def _send_request(base_url: str, uri: str, **kwargs) -> dict[str, ...]:
     try:
         r = requests.get(base_url+uri, **kwargs)
-        response = r.json(content_type=None)
+        response = r.json()
         if not isinstance(response, dict) or not response.get('error'):
             return response
         else:
@@ -242,7 +242,7 @@ class Vaksms:
         start_time = time.time()
         
         while time.time() - start_time < timeout:
-            asyncio.sleep(per_attempt)
+            time.sleep(per_attempt)
             response = self.__create_request('/api/getSmsCode/', params)
             sms = response['smsCode']
             if type(sms) == list:
