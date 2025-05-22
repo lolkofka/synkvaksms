@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![lolkof - SYNKVAKSMS](https://img.shields.io/static/v1?label=lolkof&message=SYNKVAKSMS&color=blue&logo=github)](https://github.com/AioSmsProviders/aiovaksms "Go to GitHub repo")
+[![lolkof - SYNKVAKSMS](https://img.shields.io/static/v1?label=lolkof&message=SYNKVAKSMS&color=blue&logo=github)](https://github.com/lolkofka/synkvaksms "Go to GitHub repo")
 
 [VAKSMS Official documentation](https://vak-sms.com/api/vak/)
 
@@ -14,12 +14,12 @@ This library is a wrapper for the https://vak-sms.com/api/vak/ API **from enthus
 **explicitly** defined. Methods that create requests to
 https://vak-sms.com/api/vak/
 return a pydantic's models for each response. Please write about all problems related to the library
-to [issues](https://github.com/AioSmsProviders/aiovaksms)
+to [issues](https://github.com/lolkofka/synkvaksms)
 
 API is up-to-date as of *22 May 2025*.
 
-* PyPl - https://pypi.org/project/aiovaksms/
-* Github - https://github.com/AioSmsProviders/aiovaksms
+* PyPl - https://pypi.org/project/synkvaksms/
+* Github - https://github.com/lolkofka/synkvaksms
 * Requirements: Python >= 3.10
 
 ### Features
@@ -34,7 +34,7 @@ API is up-to-date as of *22 May 2025*.
 ## Library Installation
 
 * Install via pip: `pip install synkvaksms`
-* Download sources - `git clone https://github.com/AioSmsProviders/aiovaksms`
+* Download sources - `git clone https://github.com/lolkofka/synkvaksms`
 
 ## Getting Started
 

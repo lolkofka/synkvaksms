@@ -21,4 +21,4 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/AioSmsProviders/aiovaksms"
+Homepage = "https://github.com/lolkofka/synkvaksms"
